@@ -1,0 +1,20 @@
+Command to start the env
+python main.py
+
+pytesseract supports both open cv and pillow for image recognition
+
+opencv reads an image and gives output in an array
+pillow reads an image and gives output as an object
+
+pytesseract hierarchy:
+there are 5 levels:
+level 1 : image
+level 2 : block
+level 3 : paragraph
+level 4 : line
+level 5 : words
+
+
+height width top and left defines the position of the box
+
+os.path.split is used to get only the file name out of the given path
